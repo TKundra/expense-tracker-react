@@ -1,9 +1,9 @@
 import React from 'react';
-import {Card, CardHeader, CardContent, Typography} from '@material-ui/core';
-import {Doughnut} from 'react-chartjs-2';
+import { Card, CardHeader, CardContent, Typography } from '@material-ui/core';
+import { Doughnut } from 'react-chartjs-2';
 import useStyles from './styles';
 import useTransactions from '../../hooks/useTransactions';
-import {Chart, ArcElement} from 'chart.js';
+import { Chart, ArcElement } from 'chart.js';
 Chart.register(ArcElement);
 
 const Details = ({title}) => {
